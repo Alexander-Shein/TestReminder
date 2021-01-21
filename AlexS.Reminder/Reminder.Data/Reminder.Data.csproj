@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reminder.Contracts.Data\Reminder.Contracts.Data.csproj" />
+    <ProjectReference Include="..\Reminder.Contracts.Domain\Reminder.Contracts.Domain.csproj" />
+    <ProjectReference Include="..\Reminder.Crosscutting\Reminder.Crosscutting.csproj" />
+    <ProjectReference Include="..\Reminder.Domain\Reminder.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
